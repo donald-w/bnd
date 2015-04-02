@@ -1,6 +1,8 @@
 Introduction
 ============
 
+Test
+
 RepoIndex program is a small Java program that generates repository indexes compliant with the Repository Service Specification version 1.0, as defined in the OSGi Service Platform Service Compendium, Release 5. It can recurse over a directory structure generates a repository.xml file. The URLs can be rewritten using a template.
 
 RepoIndex is a command line application that can easily be integrated in scripts. It is also an OSGi bundle that publishes a service under the `ResourceIndexer` interface, and a standalone library that can be used in conventional Java runtimes. While primarily intended for indexing OSGi bundles, it can generate metadata for any arbitrary file type by extending it with pluggable `ResourceAnalyzer` objects.
